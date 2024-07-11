@@ -1,0 +1,18 @@
+.notFound {
+    margin: auto;
+    width: 80%;
+    align-content: center;
+}
+
+.error__title {
+    margin: auto;
+    text-align: center;
+}
+
+.number {
+    margin: auto;
+    font-weight: bold;
+    font-size: 25em;
+    filter: drop-shadow(0 0 20px var(--mid-violet));
+    color: var(--black);
+}

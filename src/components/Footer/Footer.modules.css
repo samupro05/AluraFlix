@@ -1,0 +1,14 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    background: var(--Dark-Grey, rgba(38, 38, 38, 1));
+    box-shadow: 5px 3px 10px 10px rgb(22, 44, 172) ;
+}
+
+.footer__text {
+    margin: auto;
+    color: rgb(22, 44, 172);
+    
+}

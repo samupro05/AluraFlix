@@ -1,0 +1,50 @@
+/* Fonts */
+/*
+Barlow
+Alfa Slab One
+*/
+
+/* PALETA DE COLORES DE LA APP */
+:root{
+  --white: #f3f2ff;
+  --grey: #bdafff;
+  --light-violet: #9d82ff;
+  --mid-violet: #734fff;
+  --dark-violet: #5015c2;
+  --green: #35c362;
+  --red: #eb2b45;
+  --black: #18181b;
+}
+
+/* ESTILOS GENERALES DE LA APP */
+* {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  color: var(--grey);
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font: 16px 'Raleway', sans-serif;
+  width: fit-content;
+  scroll-behavior: smooth;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  *{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  *{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 300px) {
+  *{
+    font-size: 10px;
+  }
+}

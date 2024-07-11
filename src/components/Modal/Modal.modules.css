@@ -1,0 +1,27 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(24, 24, 27,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal__content {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__btn__container {
+    width: 100%;
+    text-align: end;
+}

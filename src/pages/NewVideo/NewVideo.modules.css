@@ -1,0 +1,25 @@
+.form {
+    height: 60vh;
+}
+
+.btn__container {
+    width: 100%;
+    bottom: 1em;
+    right: 1em;
+    padding: .5em;
+    text-align: end;
+}
+
+option {
+    color: var(--mid-violet);
+}
+
+.add {
+    background: linear-gradient(30deg, var(--green), var(--black));
+    color: var(--white);
+}
+
+.clean {
+    background: linear-gradient(30deg, var(--light-violet), var(--black));
+    color: var(--white);
+}

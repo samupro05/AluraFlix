@@ -1,0 +1,12 @@
+.container {
+    background-color: var(--black);
+    width: 100vw;
+    min-height: 100vh;
+    margin-bottom: 2em;
+}
+
+.main__title {
+    background-color: var(--black);
+    width: 100%;
+    padding: 1em;
+}
